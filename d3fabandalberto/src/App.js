@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Warning color={"danger"} message={"hello "} />
       <MyBadge color={"info"} message={"hello my darling "} />
+      <SingleBook />
     </div>
   )
 }
