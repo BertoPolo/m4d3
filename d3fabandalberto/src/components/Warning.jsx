@@ -1,11 +1,7 @@
-import { Alert } from "bootstrap"
+import { Alert } from "react-bootstrap"
 
-const Warning = () => {
-  return (
-    <>
-      <Alert variant={"danger"}>This is a alert—check it out!</Alert>
-    </>
-  )
+const Warning = ({ color, message }) => {
+  return <Alert variant={color}>{message}</Alert>
 }
 
 export default Warning
